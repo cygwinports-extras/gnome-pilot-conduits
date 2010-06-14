@@ -1,0 +1,17 @@
+--- origsrc/gnome-pilot-conduits-2.0.17/mal-conduit/mal/common/AGNet.h	2007-01-11 02:31:23.000000000 -0600
++++ src/gnome-pilot-conduits-2.0.17/mal-conduit/mal/common/AGNet.h	2010-06-11 18:54:02.592085600 -0500
+@@ -61,12 +61,12 @@
+ #               include <sys/filio.h>
+ #               include <arpa/inet.h>
+ #           else
+-#               ifdef __FreeBSD__
++#               if defined(__FreeBSD__) || defined(__CYGWIN__)
+ #                   include <sys/ioctl.h>
+ #                   include <arpa/inet.h>
+ #               else
+ #                   include <asm/ioctls.h>
+-#               endif /* __FreeBSD__ */
++#               endif /* __FreeBSD__ || __CYGWIN__ */
+ #           endif /* __sun__ */
+             typedef struct sockaddr_in AGSockAddr;
+             typedef int AGFd;

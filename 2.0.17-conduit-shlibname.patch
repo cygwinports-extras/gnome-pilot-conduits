@@ -1,0 +1,45 @@
+--- origsrc/gnome-pilot-conduits-2.0.17/email/sendmail.conduit.in	2007-01-11 02:31:20.000000000 -0600
++++ src/gnome-pilot-conduits-2.0.17/email/sendmail.conduit.in	2010-06-11 18:41:13.869117200 -0500
+@@ -1,5 +1,5 @@
+ <gnome-pilot-conduit version="1.0">
+-<conduit id="gpsendmail1" type="shlib" location="@LIBDIR@/gnome-pilot/conduits/libemail_conduit.so"/>
++<conduit id="gpsendmail1" type="shlib" location="@LIBDIR@/gnome-pilot/conduits/cygemail_conduit.dll"/>
+ <name value="Sendmail"/>
+ <conduit-attribute name="description" value="Mails your Palm emails via sendmail"/>
+ <conduit-attribute name="default-synctype" value="custom"/>
+--- origsrc/gnome-pilot-conduits-2.0.17/expense/expense.conduit.in	2007-01-11 02:31:21.000000000 -0600
++++ src/gnome-pilot-conduits-2.0.17/expense/expense.conduit.in	2010-06-11 18:41:20.501496500 -0500
+@@ -1,5 +1,5 @@
+ <gnome-pilot-conduit version="1.0">
+-	<conduit id="gpexpense1" type="shlib" location="@LIBDIR@/gnome-pilot/conduits/libexpense_conduit.so"/>
++	<conduit id="gpexpense1" type="shlib" location="@LIBDIR@/gnome-pilot/conduits/cygexpense_conduit.dll"/>
+ 	<name value="Expense"/>
+ 	<conduit-attribute name="description" value="Extracts data from the expenses database"/>
+ 	<conduit-attribute name="default-synctype" value="synchronize"/>
+--- origsrc/gnome-pilot-conduits-2.0.17/mal-conduit/src/mal.conduit.in	2007-01-11 02:31:21.000000000 -0600
++++ src/gnome-pilot-conduits-2.0.17/mal-conduit/src/mal.conduit.in	2010-06-11 18:41:45.285914100 -0500
+@@ -1,5 +1,5 @@
+ <gnome-pilot-conduit version="1.0">
+-	<conduit id="malconduit1" type="shlib" location="@LIBDIR@/gnome-pilot/conduits/libmal_conduit.so"/>
++	<conduit id="malconduit1" type="shlib" location="@LIBDIR@/gnome-pilot/conduits/cygmal_conduit.dll"/>
+ <name value="MAL"/>
+ 	<conduit-attribute name="description" value="Mobile Application Link conduit"/>
+ 	<conduit-attribute name="url" value="http://www.avantgo.com"/>
+--- origsrc/gnome-pilot-conduits-2.0.17/memo_file/memofile.conduit.in	2007-01-11 02:31:21.000000000 -0600
++++ src/gnome-pilot-conduits-2.0.17/memo_file/memofile.conduit.in	2010-06-11 18:41:26.108817200 -0500
+@@ -1,5 +1,5 @@
+ <gnome-pilot-conduit version="1.0">
+-     <conduit id="gpmemo1" type="shlib" location="@LIBDIR@/gnome-pilot/conduits/libmemo_file_conduit.so"/>
++     <conduit id="gpmemo1" type="shlib" location="@LIBDIR@/gnome-pilot/conduits/cygmemo_file_conduit.dll"/>
+      <name value="MemoFile"/>
+      <conduit-attribute name="description" value="Synchronizes your memos to local file"/>
+      <conduit-attribute name="default-synctype" value="synchronize"/>
+--- origsrc/gnome-pilot-conduits-2.0.17/time/time.conduit.in	2007-01-11 02:31:21.000000000 -0600
++++ src/gnome-pilot-conduits-2.0.17/time/time.conduit.in	2010-06-11 18:41:32.301171400 -0500
+@@ -1,5 +1,5 @@
+ <gnome-pilot-conduit version="1.0">
+-     <conduit id="gptime1" type="shlib" location="@LIBDIR@/gnome-pilot/conduits/libtime_conduit.so"/>
++     <conduit id="gptime1" type="shlib" location="@LIBDIR@/gnome-pilot/conduits/cygtime_conduit.dll"/>
+      <name value="Time"/>
+      <conduit-attribute name="description" value="Synchronizes the devices clock to the desktop"/>
+      <conduit-attribute name="default-synctype" value="custom"/>
