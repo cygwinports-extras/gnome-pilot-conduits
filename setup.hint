@@ -1,5 +1,5 @@
 category: Gnome Utils
-requires: gnome-pilot libgcc1 libglib2.0_0 libgnome2_0 libgnomeui2_0 libgtk2.0_0 libintl8 libpisock9
+requires: gnome-pilot libglib2.0_0 libgtk2.0_0 libintl8 libpisock9
 sdesc: "GNOME daemon for syncing PalmOS handhelds (additional conduits)"
 ldesc: "Gnome-Pilot is a package with a daemon (gpilotd) that monitor 
 for pilot connects on one or more devices (cradles/XCopilots/network). 

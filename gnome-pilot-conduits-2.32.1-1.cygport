@@ -4,7 +4,6 @@ DESCRIPTION="Additional conduits for GNOME Pilot-link interface"
 
 
 PATCH_URI="
-	2.0.17-compile-ioctl.patch
 	2.0.17-conduit-shlibname.patch
 	2.0.17-no-undefined.patch
 "
