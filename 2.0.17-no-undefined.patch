@@ -20,17 +20,6 @@
  
  libexpense_conduit_la_SOURCES = \
  	expense_conduit.c 	\
---- origsrc/gnome-pilot-conduits-2.0.17/mal-conduit/src/Makefile.am	2007-01-11 02:31:21.000000000 -0600
-+++ src/gnome-pilot-conduits-2.0.17/mal-conduit/src/Makefile.am	2010-06-11 18:40:20.907087900 -0500
-@@ -14,7 +14,7 @@ mal_conduits_LTLIBRARIES = 	\
- 	libmal_conduit.la	\
- 	$(NULL)
- 
--libmal_conduit_la_LDFLAGS = -module -avoid-version
-+libmal_conduit_la_LDFLAGS = -module -avoid-version -no-undefined
- 
- libmal_conduit_la_SOURCES = 	\
- 	mal-conduit.h 		\
 --- origsrc/gnome-pilot-conduits-2.0.17/memo_file/Makefile.am	2007-01-11 02:31:21.000000000 -0600
 +++ src/gnome-pilot-conduits-2.0.17/memo_file/Makefile.am	2010-06-11 18:40:04.994177700 -0500
 @@ -11,7 +11,7 @@ memo_file_conduitsdir=$(libdir)/gnome-pi

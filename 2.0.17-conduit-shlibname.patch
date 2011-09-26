@@ -16,15 +16,6 @@
  	<name value="Expense"/>
  	<conduit-attribute name="description" value="Extracts data from the expenses database"/>
  	<conduit-attribute name="default-synctype" value="synchronize"/>
---- origsrc/gnome-pilot-conduits-2.0.17/mal-conduit/src/mal.conduit.in	2007-01-11 02:31:21.000000000 -0600
-+++ src/gnome-pilot-conduits-2.0.17/mal-conduit/src/mal.conduit.in	2010-06-11 18:41:45.285914100 -0500
-@@ -1,5 +1,5 @@
- <gnome-pilot-conduit version="1.0">
--	<conduit id="malconduit1" type="shlib" location="@LIBDIR@/gnome-pilot/conduits/libmal_conduit.so"/>
-+	<conduit id="malconduit1" type="shlib" location="@LIBDIR@/gnome-pilot/conduits/cygmal_conduit.dll"/>
- <name value="MAL"/>
- 	<conduit-attribute name="description" value="Mobile Application Link conduit"/>
- 	<conduit-attribute name="url" value="http://www.avantgo.com"/>
 --- origsrc/gnome-pilot-conduits-2.0.17/memo_file/memofile.conduit.in	2007-01-11 02:31:21.000000000 -0600
 +++ src/gnome-pilot-conduits-2.0.17/memo_file/memofile.conduit.in	2010-06-11 18:41:26.108817200 -0500
 @@ -1,5 +1,5 @@
