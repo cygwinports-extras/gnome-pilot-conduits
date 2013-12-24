@@ -1,0 +1,16 @@
+inherit gnome2
+
+NAME="gnome-pilot-conduits"
+VERSION=2.91.93
+RELEASE=1
+CATEGORY="GNOME"
+SUMMARY="GNOME daemon for syncing PalmOS handhelds (additional conduits)"
+DESCRIPTION="Gnome-Pilot is a package with a daemon (gpilotd) that monitor for
+pilot connects on one or more devices (cradles/XCopilots/network).  It has an
+API for creating conduits as well as a couple of default conduits, including
+one for backing up files, and one for installing files."
+
+PATCH_URI="
+	2.0.17-conduit-shlibname.patch
+	2.0.17-no-undefined.patch
+"

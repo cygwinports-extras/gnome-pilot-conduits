@@ -1,8 +1,0 @@
-category: Gnome Utils
-requires: gnome-pilot libglib2.0_0 libgtk3_0 libintl8 libpisock9
-sdesc: "GNOME daemon for syncing PalmOS handhelds (additional conduits)"
-ldesc: "Gnome-Pilot is a package with a daemon (gpilotd) that monitor 
-for pilot connects on one or more devices (cradles/XCopilots/network). 
-It has an API for creating conduits as well as a couple of default 
-conduits, including one for backing up files, and one for installing 
-files."
